@@ -1,26 +1,27 @@
+# TAGLESS FINAL 101
 
-==> In TF, DSLs are trait.
+- In TF, DSLs are trait.
 
-==> F[_] => F means effect.
+- F[_] => F means effect.
 
-==> Interpreters have all the power.
+- Interpreters have all the power.
 
-==> Functor can change type categories. Like moving from Int category to List[Int] category.
+- Functor can change type categories. Like moving from Int category to List[Int] category.
 
-==> Applicative can change value categories. Like moving 5 to Option[5].
+- Applicative can change value categories. Like moving 5 to Option[5].
 
-==> Monad Transformers are slow!!!
+- Monad Transformers are slow!!!
 - EitherT[F[_], A, B] is a lightweight wrapper for F[Either[A, B]]
 
-==> Helper for TF --> addCompilerPlugin("org.augustjune" %% "context-applied" % "x")
+- Helper for TF --> addCompilerPlugin("org.augustjune" %% "context-applied" % "x")
 
-==> cats-effect for concurrency
+- cats-effect for concurrency
 
-==> Cats / Sync ==>  suspend is useful for trampolining
+- Cats / Sync ==>  suspend is useful for trampolining
 
-==> flatMap is stack safe!!!
+- flatMap is stack safe!!!
 
-==> EitherT[IO, NonEmptyChain[String], Int] ==> IO[Either[NonEmptyChain[String], Int]]
+- EitherT[IO, NonEmptyChain[String], Int] ==> IO[Either[NonEmptyChain[String], Int]]
 
 * Apply                 = Functor with InvariantSemigroupal with ApplyArityFunctions
 * Applicative           = Apply + Pure
