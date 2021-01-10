@@ -2,7 +2,7 @@ language: scala
 jdk: openjdk8
 scala:
   - 2.13.4
-  - 2.12.91
+  - 2.12.9
 sudo: false
 before_install: umask 0022
 script:
