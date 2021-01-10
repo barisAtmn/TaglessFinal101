@@ -15,6 +15,8 @@ Global / onChangedBuildSource := ReloadOnSourceChanges
 lazy val root = (project in file("."))
   .settings(
     name := "TaglessFinal101",
+    mainClass in (Compile, run) := Some("tf.Main"),
+    mainClass in (Compile, packageBin) := Some("tf.Main"),
     libraryDependencies += "org.typelevel" %% "cats-core" % "2.3.1",
     libraryDependencies += compilerPlugin(
       "org.augustjune" %% "context-applied" % "0.1.4"
