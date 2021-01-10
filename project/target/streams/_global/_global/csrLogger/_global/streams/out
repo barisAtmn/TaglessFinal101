@@ -1,2 +1,12 @@
-[debug] downloaded https://repo1.maven.org/maven2/org/augustjune/context-applied_2.12/0.1.4/context-applied_2.12-0.1.4.pom
-[debug] downloaded https://repo1.maven.org/maven2/org/augustjune/context-applied_2.12/0.1.4/context-applied_2.12-0.1.4.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/wartremover/sbt-wartremover_2.13_1.0/2.4.13/sbt-wartremover-2.4.13.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.13_1.0/2.4.0/sbt-scalafmt-2.4.0.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/wartremover/sbt-wartremover_2.13_1.0/2.4.13/sbt-wartremover-2.4.13.pom.sha1
+[debug] downloaded https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.13_1.0/2.4.0/sbt-scalafmt-2.4.0.pom.sha1
+[debug] downloaded https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.wartremover/sbt-wartremover/scala_2.13/sbt_1.0/2.4.13/ivys/ivy.xml
+[debug] downloaded https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.13/sbt_1.0/2.4.0/ivys/ivy.xml
+[debug] downloaded https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.wartremover/sbt-wartremover/scala_2.13/sbt_1.0/2.4.13/ivys/ivy.xml.sha1
+[debug] downloaded https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.13/sbt_1.0/2.4.0/ivys/ivy.xml.sha1
+[debug] downloaded https://repo.typesafe.com/typesafe/ivy-releases/org.wartremover/sbt-wartremover/scala_2.13/sbt_1.0/2.4.13/ivys/ivy.xml
+[debug] downloaded https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.13/sbt_1.0/2.4.0/ivys/ivy.xml
+[debug] downloaded https://repo.typesafe.com/typesafe/ivy-releases/org.wartremover/sbt-wartremover/scala_2.13/sbt_1.0/2.4.13/ivys/ivy.xml.sha1
+[debug] downloaded https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.13/sbt_1.0/2.4.0/ivys/ivy.xml.sha1

@@ -7,7 +7,7 @@ import scala.util.chaining._
 object Tricks extends App {
 
   def fn[F[_]: Monad: Traverse, A](fs: F[A]) =
-    F.map(fs)(_.toString.size)
+    F.map(fs)(_.toString.length)
 
   fn(List("3487", "87687"))
     .tap(println)
