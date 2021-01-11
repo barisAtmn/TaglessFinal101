@@ -31,3 +31,8 @@
 * MonadError[F, String] = "division by zero".raiseError[F, Int]
   ** For Context Bound ==> ( F[_] : MonadError[*[_],String])
   
+
+* MultiFuntor ==> F[_,_](bi-functor) or F[_,_,_](tri-functor)
+* In Izumi F[_,_] ==> second `_`(slot) is used for error channel. !!!
+* In Izumi F[_,_,_] ==> third `_` is used for injection. !!!
+  

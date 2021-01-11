@@ -25,6 +25,8 @@ lazy val root = (project in file("."))
       "org.typelevel" %% "kind-projector" % "0.11.1" cross CrossVersion.full
     ),
     libraryDependencies += "org.typelevel" %% "cats-core" % "2.3.1",
-    libraryDependencies += "org.typelevel" %% "cats-effect" % "2.3.1"
+    libraryDependencies += "org.typelevel" %% "cats-effect" % "2.3.1",
+    libraryDependencies += "dev.zio" %% "zio" % "1.0.1",
+    libraryDependencies += "io.7mind.izumi" %% "fundamentals-bio" % "0.10.18"
     //wartremoverErrors ++= Warts.allBut(Wart.OptionPartial)
   )
