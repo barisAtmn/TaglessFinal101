@@ -27,6 +27,7 @@ lazy val root = (project in file("."))
     libraryDependencies += "org.typelevel" %% "cats-core" % "2.3.1",
     libraryDependencies += "org.typelevel" %% "cats-effect" % "2.3.1",
     libraryDependencies += "dev.zio" %% "zio" % "1.0.1",
-    libraryDependencies += "io.7mind.izumi" %% "fundamentals-bio" % "0.10.18"
+    libraryDependencies += "io.7mind.izumi" %% "fundamentals-bio" % "0.10.18",
+    libraryDependencies += "io.monix" %% "monix" % "3.3.0"
     //wartremoverErrors ++= Warts.allBut(Wart.OptionPartial)
   )

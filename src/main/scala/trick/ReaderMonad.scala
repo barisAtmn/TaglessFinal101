@@ -4,7 +4,6 @@ import cats.{Id}
 import cats.data.{Kleisli, Reader}
 import cats.effect.{IO}
 import cats.implicits._
-import cats.effect.IO._
 import scala.util.chaining._
 import scala.util.Random
 
